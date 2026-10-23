@@ -1,0 +1,23 @@
+
+com.zhuo.sloth.ui.VideoFeedBindingTest:
+Error in hiddenPageReleasesItsPlaybackHandle(com.zhuo.sloth.ui.VideoFeedBindingTest):
+java.lang.AssertionError: Activity never becomes requested state "[DESTROYED]" (last lifecycle transition = "PAUSED")
+	at androidx.test.core.app.ActivityScenario.waitForActivityToBecomeAnyOf(ActivityScenario.java:454)
+	at androidx.test.core.app.ActivityScenario.moveToState(ActivityScenario.java:689)
+	at androidx.test.core.app.ActivityScenario.close(ActivityScenario.java:421)
+	at com.zhuo.sloth.ui.VideoFeedBindingTest.finish(VideoFeedBindingTest.kt:21)
+.....
+
+Time: 144.748
+There was 1 failure:
+1) hiddenPageReleasesItsPlaybackHandle(com.zhuo.sloth.ui.VideoFeedBindingTest)
+java.lang.AssertionError: Activity never becomes requested state "[DESTROYED]" (last lifecycle transition = "PAUSED")
+	at androidx.test.core.app.ActivityScenario.waitForActivityToBecomeAnyOf(ActivityScenario.java:454)
+	at androidx.test.core.app.ActivityScenario.moveToState(ActivityScenario.java:689)
+	at androidx.test.core.app.ActivityScenario.close(ActivityScenario.java:421)
+	at com.zhuo.sloth.ui.VideoFeedBindingTest.finish(VideoFeedBindingTest.kt:21)
+
+FAILURES!!!
+Tests run: 6,  Failures: 1
+
+

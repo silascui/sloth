@@ -1,0 +1,14 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@+id/sloth_control_status" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#FFFFFF" />
+    <SeekBar android:id="@+id/sloth_control_seek" android:layout_width="match_parent" android:layout_height="48dp" android:contentDescription="@string/sloth_seek" />
+    <TextView android:id="@+id/sloth_control_time" android:layout_width="match_parent" android:layout_height="wrap_content" android:textColor="#FFFFFF" />
+    <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout style="?android:attr/buttonBarStyle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+            <Button style="?android:attr/buttonBarButtonStyle" android:textColor="@color/sloth_control_text" android:id="@+id/sloth_control_play" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sloth_play" />
+            <Button style="?android:attr/buttonBarButtonStyle" android:textColor="@color/sloth_control_text" android:id="@+id/sloth_control_retry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sloth_retry" android:visibility="gone" />
+            <Button style="?android:attr/buttonBarButtonStyle" android:textColor="@color/sloth_control_text" android:id="@+id/sloth_control_mute" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sloth_unmute" />
+            <Button style="?android:attr/buttonBarButtonStyle" android:textColor="@color/sloth_control_text" android:id="@+id/sloth_control_speed" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button style="?android:attr/buttonBarButtonStyle" android:textColor="@color/sloth_control_text" android:id="@+id/sloth_control_fullscreen" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sloth_fullscreen" android:visibility="gone" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</merge>

@@ -1,0 +1,42 @@
+schema_version: 2
+stage: ui_implementation
+feature_id: sample_feed_and_short_video
+status: passed
+scope: 示例代码实现及编译检查，不代表设备功能或视觉验收通过
+design_sources:
+  - 用户要求：增加滑动列表自动播放、短视频播放示例
+  - 现有 DemoActivity、VideoHostView 和 FeedPlaybackController
+implemented_states:
+  - 首页选择列表或短视频示例
+  - 列表空闲时选择可见视频面积最大的卡片，相同面积优先保持当前项
+  - 列表卡片绑定、回收、移出屏幕与重新附着
+  - 短视频上下滑动、相邻预热与点击暂停继续
+  - 页面前后台切换与退出释放
+  - 播放状态保存恢复及列表滚动位置保存恢复
+assumptions:
+  - 使用原生控件与现有本地视频，无需联网
+  - 列表停止滚动后选播，滚动开始时当前视频继续播放直到目标切换或宿主移出屏幕
+  - 默认静音，列表示例关闭备用解码预热，短视频示例保留预热
+checks:
+  - title: 示例 Debug APK 编译
+    command: ':sample:assembleDebug'
+    result: passed
+    evidence: sample/build/outputs/apk/debug/sample-debug.apk
+  - title: 播放器单元测试
+    command: ':player:testDebugUnitTest'
+    result: passed
+    count: 43
+    evidence: player/build/reports/tests/testDebugUnitTest/index.html
+  - title: 示例静态检查
+    command: ':sample:lintDebug'
+    result: passed
+    evidence: sample/build/reports/lint-results-debug.html
+    note: 仅有现有 allowBackup 配置的 DataExtractionRules 警告
+  - title: 设备播放、滚动、恢复及视觉验收
+    result: not_run
+    reason: 未执行独立视觉验收；接入层设备功能回归另见 framework-refactor-report.md
+blockers: []
+risks:
+  - API 35 模拟器截图出现条纹花屏，原视频独立解码正常，原因未定位，详见 framework-refactor-report.md
+  - 需要在设备验证首帧、快速滑动、点击暂停、后台返回及旋转恢复
+  - 尚未执行多尺寸、深浅色和大字体视觉验收

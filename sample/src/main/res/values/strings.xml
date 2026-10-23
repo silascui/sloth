@@ -1,0 +1,11 @@
+<resources>
+<string name="app_name">通用播放器示例</string>
+<string name="hint">上下滑动切换；点击画面暂停或继续</string>
+<string name="demo_intro">Sloth 视频播放示例</string>
+<string name="feed_demo">列表自动播放</string>
+<string name="short_video_demo">短视频上下滑动播放</string>
+<string name="feed_hint">停止滑动后播放可见面积最大的卡片；点击画面暂停或继续</string>
+<string name="video_title">本地视频 %1$d</string>
+<string name="muted_hint">默认静音 · 无需联网</string>
+<string name="back_to_demos">返回示例列表</string>
+</resources>

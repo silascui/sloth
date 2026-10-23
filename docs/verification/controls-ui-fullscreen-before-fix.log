@@ -1,0 +1,38 @@
+
+com.zhuo.sloth.ui.PlaybackControlsTest:
+Process crashed while executing bindingControlsManageFullscreenAndRestorePagerInputOnStop(com.zhuo.sloth.ui.PlaybackControlsTest):
+java.lang.ClassCastException: androidx.recyclerview.widget.RecyclerView$LayoutParams cannot be cast to android.widget.FrameLayout$LayoutParams
+	at android.widget.FrameLayout.onMeasure(FrameLayout.java:195)
+	at android.view.View.measure(View.java:28114)
+	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6989)
+	at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+	at android.view.View.measure(View.java:28114)
+	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6989)
+	at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1608)
+	at android.widget.LinearLayout.measureVertical(LinearLayout.java:878)
+	at android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+	at android.view.View.measure(View.java:28114)
+	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:6989)
+	at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+	at com.android.internal.policy.DecorView.onMeasure(DecorView.java:719)
+	at android.view.View.measure(View.java:28114)
+	at android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:4823)
+	at android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:3220)
+	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:3525)
+	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2917)
+	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:10324)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1406)
+	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1415)
+	at android.view.Choreographer.doCallbacks(Choreographer.java:1015)
+	at android.view.Choreographer.doFrame(Choreographer.java:945)
+	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1389)
+	at android.os.Handler.handleCallback(Handler.java:959)
+	at android.os.Handler.dispatchMessage(Handler.java:100)
+	at android.os.Looper.loopOnce(Looper.java:232)
+	at android.os.Looper.loop(Looper.java:317)
+	at android.app.ActivityThread.main(ActivityThread.java:8705)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:580)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:886)
+INSTRUMENTATION_RESULT: shortMsg=Process crashed.
+INSTRUMENTATION_CODE: 0

@@ -1,0 +1,33 @@
+
+com.zhuo.sloth.PlaybackControllerTest:.....
+com.zhuo.sloth.FrameworkPlaybackTest:
+Error in asyncManualConsentSurvivesMeteredGateButCannotAuthorizeANewerSelection(com.zhuo.sloth.FrameworkPlaybackTest):
+java.lang.AssertionError: consent must resume the original manual request despite autoplay being disabled
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.zhuo.sloth.FrameworkPlaybackTest.await(FrameworkPlaybackTest.kt:35)
+	at com.zhuo.sloth.FrameworkPlaybackTest.asyncManualConsentSurvivesMeteredGateButCannotAuthorizeANewerSelection(FrameworkPlaybackTest.kt:132)
+
+Error in feedPromotesWarmEngineAndOldLeaseCannotControlIt(com.zhuo.sloth.FrameworkPlaybackTest):
+java.lang.AssertionError: first frame and adjacent warm frame
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.zhuo.sloth.FrameworkPlaybackTest.await(FrameworkPlaybackTest.kt:35)
+	at com.zhuo.sloth.FrameworkPlaybackTest.feedPromotesWarmEngineAndOldLeaseCannotControlIt(FrameworkPlaybackTest.kt:69)
+...
+
+Time: 399.039
+There were 2 failures:
+1) asyncManualConsentSurvivesMeteredGateButCannotAuthorizeANewerSelection(com.zhuo.sloth.FrameworkPlaybackTest)
+java.lang.AssertionError: consent must resume the original manual request despite autoplay being disabled
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.zhuo.sloth.FrameworkPlaybackTest.await(FrameworkPlaybackTest.kt:35)
+	at com.zhuo.sloth.FrameworkPlaybackTest.asyncManualConsentSurvivesMeteredGateButCannotAuthorizeANewerSelection(FrameworkPlaybackTest.kt:132)
+2) feedPromotesWarmEngineAndOldLeaseCannotControlIt(com.zhuo.sloth.FrameworkPlaybackTest)
+java.lang.AssertionError: first frame and adjacent warm frame
+	at org.junit.Assert.fail(Assert.java:89)
+	at com.zhuo.sloth.FrameworkPlaybackTest.await(FrameworkPlaybackTest.kt:35)
+	at com.zhuo.sloth.FrameworkPlaybackTest.feedPromotesWarmEngineAndOldLeaseCannotControlIt(FrameworkPlaybackTest.kt:69)
+
+FAILURES!!!
+Tests run: 10,  Failures: 2
+
+

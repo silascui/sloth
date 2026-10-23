@@ -1,0 +1,5 @@
+# 来源与分发边界
+
+本框架包含从既有播放器实现抽离的代码。原有权利归原权利人；本次内部封装不授予新的开源或对外分发许可。对外发布前请确认相应授权。
+
+MediaAudioFocusManager保留原Android Open Source Project Apache-2.0版权和许可头。Media3及其他第三方库由Gradle按自身许可获取，本项目没有把私有依赖或第三方缓存打入源码包。

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.media3.ui.PlayerView android:id="@+id/avp_player" android:layout_width="match_parent" android:layout_height="match_parent" app:surface_type="texture_view" app:use_controller="false" app:show_buffering="never" app:keep_content_on_player_reset="true" />
+    <ImageView android:id="@+id/avp_cover" android:layout_width="match_parent" android:layout_height="match_parent" android:background="#000000" android:scaleType="fitCenter" android:importantForAccessibility="no" />
+    <ProgressBar android:id="@+id/avp_buffering" android:layout_width="48dp" android:layout_height="48dp" android:layout_gravity="center" android:visibility="gone" />
+    <ImageButton android:id="@+id/avp_play" android:layout_width="64dp" android:layout_height="64dp" android:layout_gravity="center" android:src="@android:drawable/ic_media_play" android:background="@android:color/transparent" android:contentDescription="@string/avp_play" android:visibility="gone" />
+</merge>

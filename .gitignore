@@ -1,0 +1,19 @@
+.gradle/
+.kotlin/
+**/build/
+local.properties
+.idea/
+*.iml
+dist/
+
+# Local publishing credentials and signing material
+.env
+.env.*
+*.asc
+*.gpg
+*.key
+*.p12
+*.jks
+*.keystore
+.DS_Store
+__pycache__/

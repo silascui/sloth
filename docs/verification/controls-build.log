@@ -1,0 +1,333 @@
+> Task :player:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :player:preBuild UP-TO-DATE
+> Task :player:preDebugBuild UP-TO-DATE
+> Task :player:generateDebugResValues UP-TO-DATE
+> Task :player:generateDebugResources UP-TO-DATE
+> Task :player:packageDebugResources UP-TO-DATE
+> Task :player:parseDebugLocalResources UP-TO-DATE
+> Task :player:generateDebugRFile UP-TO-DATE
+> Task :player:javaPreCompileDebug UP-TO-DATE
+> Task :player:preDebugUnitTestBuild UP-TO-DATE
+> Task :player:generateDebugUnitTestStubRFile UP-TO-DATE
+> Task :player:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :player-ui:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :player-ui:preBuild UP-TO-DATE
+> Task :player-ui:preDebugBuild UP-TO-DATE
+> Task :player-ui:generateDebugResValues UP-TO-DATE
+> Task :player-ui:generateDebugResources UP-TO-DATE
+> Task :player-ui:packageDebugResources UP-TO-DATE
+> Task :player-ui:parseDebugLocalResources UP-TO-DATE
+> Task :player-ui:generateDebugRFile UP-TO-DATE
+> Task :player-ui:javaPreCompileDebug UP-TO-DATE
+> Task :player-ui:preDebugUnitTestBuild UP-TO-DATE
+> Task :player-ui:javaPreCompileDebugUnitTest UP-TO-DATE
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild UP-TO-DATE
+> Task :sample:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :sample:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :player:compileDebugLibraryResources UP-TO-DATE
+> Task :player-ui:compileDebugLibraryResources UP-TO-DATE
+> Task :player:writeDebugAarMetadata UP-TO-DATE
+> Task :player-ui:writeDebugAarMetadata UP-TO-DATE
+> Task :sample:checkDebugAarMetadata UP-TO-DATE
+> Task :sample:generateDebugResValues UP-TO-DATE
+> Task :sample:mapDebugSourceSetPaths UP-TO-DATE
+> Task :sample:generateDebugResources UP-TO-DATE
+> Task :sample:mergeDebugResources UP-TO-DATE
+> Task :sample:packageDebugResources UP-TO-DATE
+> Task :sample:parseDebugLocalResources UP-TO-DATE
+> Task :sample:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :player:extractDeepLinksDebug UP-TO-DATE
+> Task :player:processDebugManifest UP-TO-DATE
+> Task :player-ui:extractDeepLinksDebug UP-TO-DATE
+> Task :player-ui:processDebugManifest UP-TO-DATE
+> Task :sample:extractDeepLinksDebug UP-TO-DATE
+> Task :sample:processDebugMainManifest UP-TO-DATE
+> Task :sample:processDebugManifest UP-TO-DATE
+> Task :sample:processDebugManifestForPackage UP-TO-DATE
+> Task :sample:processDebugResources UP-TO-DATE
+> Task :sample:javaPreCompileDebug UP-TO-DATE
+> Task :player:mergeDebugShaders UP-TO-DATE
+> Task :player:compileDebugShaders NO-SOURCE
+> Task :player:generateDebugAssets UP-TO-DATE
+> Task :player:packageDebugAssets UP-TO-DATE
+> Task :player-ui:mergeDebugShaders UP-TO-DATE
+> Task :player-ui:compileDebugShaders NO-SOURCE
+> Task :player-ui:generateDebugAssets UP-TO-DATE
+> Task :player-ui:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders UP-TO-DATE
+> Task :sample:compileDebugShaders NO-SOURCE
+> Task :sample:generateDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugAssets UP-TO-DATE
+> Task :sample:compressDebugAssets UP-TO-DATE
+> Task :sample:checkDebugDuplicateClasses UP-TO-DATE
+> Task :sample:desugarDebugFileDependencies UP-TO-DATE
+> Task :sample:mergeExtDexDebug UP-TO-DATE
+> Task :player:mergeDebugJniLibFolders UP-TO-DATE
+> Task :player:mergeDebugNativeLibs NO-SOURCE
+> Task :player:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :player-ui:mergeDebugJniLibFolders UP-TO-DATE
+> Task :player-ui:mergeDebugNativeLibs NO-SOURCE
+> Task :player-ui:copyDebugJniLibsProjectOnly UP-TO-DATE
+> Task :sample:mergeDebugJniLibFolders UP-TO-DATE
+> Task :sample:mergeDebugNativeLibs NO-SOURCE
+> Task :sample:stripDebugDebugSymbols NO-SOURCE
+> Task :sample:validateSigningDebug UP-TO-DATE
+> Task :sample:writeDebugAppMetadata UP-TO-DATE
+> Task :sample:writeDebugSigningConfigVersions UP-TO-DATE
+> Task :player:preDebugAndroidTestBuild UP-TO-DATE
+> Task :player-ui:generateDebugUnitTestStubRFile
+> Task :player:checkDebugAndroidTestAarMetadata UP-TO-DATE
+> Task :player:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :player:mapDebugAndroidTestSourceSetPaths UP-TO-DATE
+> Task :player:generateDebugAndroidTestResources UP-TO-DATE
+> Task :player:mergeDebugAndroidTestResources UP-TO-DATE
+> Task :player:processDebugAndroidTestManifest UP-TO-DATE
+> Task :player:processDebugAndroidTestResources UP-TO-DATE
+> Task :player:javaPreCompileDebugAndroidTest UP-TO-DATE
+> Task :player:mergeDebugAndroidTestShaders UP-TO-DATE
+> Task :player:compileDebugAndroidTestShaders NO-SOURCE
+> Task :player:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :player:mergeDebugAndroidTestAssets UP-TO-DATE
+> Task :player:compressDebugAndroidTestAssets UP-TO-DATE
+> Task :player:checkDebugAndroidTestDuplicateClasses UP-TO-DATE
+> Task :player:desugarDebugAndroidTestFileDependencies UP-TO-DATE
+> Task :player:mergeExtDexDebugAndroidTest UP-TO-DATE
+> Task :player:mergeDebugAndroidTestJniLibFolders UP-TO-DATE
+> Task :player:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :player:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :player:validateSigningDebugAndroidTest UP-TO-DATE
+> Task :player:writeDebugAndroidTestSigningConfigVersions UP-TO-DATE
+> Task :player-ui:preDebugAndroidTestBuild UP-TO-DATE
+> Task :player-ui:checkDebugAndroidTestAarMetadata UP-TO-DATE
+> Task :player-ui:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :player-ui:mapDebugAndroidTestSourceSetPaths UP-TO-DATE
+> Task :player-ui:generateDebugAndroidTestResources UP-TO-DATE
+> Task :player-ui:mergeDebugAndroidTestResources UP-TO-DATE
+> Task :player-ui:processDebugAndroidTestManifest UP-TO-DATE
+> Task :player-ui:processDebugAndroidTestResources UP-TO-DATE
+> Task :player-ui:javaPreCompileDebugAndroidTest UP-TO-DATE
+> Task :player-ui:mergeDebugAndroidTestShaders UP-TO-DATE
+> Task :player-ui:compileDebugAndroidTestShaders NO-SOURCE
+> Task :player-ui:generateDebugAndroidTestAssets UP-TO-DATE
+> Task :player-ui:mergeDebugAndroidTestAssets UP-TO-DATE
+> Task :player-ui:compressDebugAndroidTestAssets UP-TO-DATE
+> Task :player-ui:checkDebugAndroidTestDuplicateClasses UP-TO-DATE
+> Task :player-ui:desugarDebugAndroidTestFileDependencies UP-TO-DATE
+> Task :player-ui:mergeExtDexDebugAndroidTest UP-TO-DATE
+> Task :player-ui:mergeDebugAndroidTestJniLibFolders UP-TO-DATE
+> Task :player-ui:mergeDebugAndroidTestNativeLibs NO-SOURCE
+> Task :player-ui:stripDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :player-ui:validateSigningDebugAndroidTest UP-TO-DATE
+> Task :player-ui:writeDebugAndroidTestSigningConfigVersions UP-TO-DATE
+> Task :player:preReleaseBuild UP-TO-DATE
+> Task :player:generateReleaseResValues UP-TO-DATE
+> Task :player:generateReleaseResources UP-TO-DATE
+> Task :player:packageReleaseResources UP-TO-DATE
+> Task :player:parseReleaseLocalResources UP-TO-DATE
+> Task :player:generateReleaseRFile UP-TO-DATE
+> Task :player:javaPreCompileRelease UP-TO-DATE
+> Task :player:extractProguardFiles UP-TO-DATE
+> Task :player:processReleaseManifest UP-TO-DATE
+> Task :player:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :player:mergeReleaseNativeLibs NO-SOURCE
+> Task :player:stripReleaseDebugSymbols NO-SOURCE
+> Task :player:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :player:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :player:mergeReleaseShaders UP-TO-DATE
+> Task :player:compileReleaseShaders NO-SOURCE
+> Task :player:generateReleaseAssets UP-TO-DATE
+> Task :player:packageReleaseAssets UP-TO-DATE
+> Task :player:prepareLintJarForPublish UP-TO-DATE
+> Task :player:prepareReleaseArtProfile UP-TO-DATE
+> Task :player:writeReleaseAarMetadata UP-TO-DATE
+> Task :player:preReleaseUnitTestBuild UP-TO-DATE
+> Task :player:writeReleaseLintModelMetadata UP-TO-DATE
+> Task :player:stripDebugDebugSymbols NO-SOURCE
+> Task :player:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :player:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :player:prepareDebugArtProfile UP-TO-DATE
+> Task :player:writeDebugLintModelMetadata UP-TO-DATE
+> Task :player-ui:stripDebugDebugSymbols NO-SOURCE
+> Task :player-ui:copyDebugJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :player-ui:extractDeepLinksForAarDebug UP-TO-DATE
+> Task :player-ui:prepareDebugArtProfile UP-TO-DATE
+> Task :player-ui:prepareLintJarForPublish UP-TO-DATE
+> Task :player-ui:writeDebugLintModelMetadata UP-TO-DATE
+> Task :player-ui:extractProguardFiles UP-TO-DATE
+> Task :player-ui:preReleaseBuild UP-TO-DATE
+> Task :player-ui:generateReleaseResValues UP-TO-DATE
+> Task :player-ui:generateReleaseResources UP-TO-DATE
+> Task :player-ui:packageReleaseResources UP-TO-DATE
+> Task :player-ui:parseReleaseLocalResources UP-TO-DATE
+> Task :player-ui:generateReleaseRFile UP-TO-DATE
+> Task :player-ui:javaPreCompileRelease UP-TO-DATE
+> Task :player-ui:processReleaseManifest UP-TO-DATE
+> Task :player-ui:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :player-ui:mergeReleaseNativeLibs NO-SOURCE
+> Task :player-ui:stripReleaseDebugSymbols NO-SOURCE
+> Task :player-ui:copyReleaseJniLibsProjectAndLocalJars UP-TO-DATE
+> Task :player-ui:extractDeepLinksForAarRelease UP-TO-DATE
+> Task :player-ui:mergeReleaseShaders UP-TO-DATE
+> Task :player-ui:compileReleaseShaders NO-SOURCE
+> Task :player-ui:generateReleaseAssets UP-TO-DATE
+> Task :player-ui:packageReleaseAssets UP-TO-DATE
+> Task :player-ui:prepareReleaseArtProfile UP-TO-DATE
+> Task :player-ui:writeReleaseAarMetadata UP-TO-DATE
+> Task :player-ui:preReleaseUnitTestBuild UP-TO-DATE
+> Task :player-ui:writeReleaseLintModelMetadata UP-TO-DATE
+> Task :sample:preDebugAndroidTestBuild SKIPPED
+> Task :sample:generateDebugAndroidTestResValues UP-TO-DATE
+> Task :sample:extractProguardFiles UP-TO-DATE
+> Task :sample:preDebugUnitTestBuild UP-TO-DATE
+> Task :player:sourceReleaseJar
+> Task :player:generatePomFileForReleasePublication
+> Task :player-ui:sourceReleaseJar UP-TO-DATE
+> Task :player-ui:generatePomFileForReleasePublication
+> Task :player:compileReleaseKotlin
+> Task :player:compileDebugKotlin
+> Task :player:compileDebugJavaWithJavac NO-SOURCE
+> Task :player:processDebugJavaRes UP-TO-DATE
+> Task :player:compileReleaseJavaWithJavac NO-SOURCE
+> Task :player:bundleLibRuntimeToDirDebug
+> Task :player:bundleLibRuntimeToJarDebug
+> Task :player:bundleLibCompileToJarDebug
+> Task :player:generateReleaseLintReportModel
+> Task :player:extractReleaseAnnotations
+> Task :player:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :player:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :player:processReleaseJavaRes UP-TO-DATE
+> Task :player:mergeReleaseJavaResource UP-TO-DATE
+> Task :player:compileDebugUnitTestKotlin
+> Task :player:syncReleaseLibJars
+> Task :player:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :player:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :player-ui:compileDebugKotlin
+> Task :player:compileDebugAndroidTestKotlin
+> Task :player:testDebugUnitTest
+> Task :player-ui:compileDebugJavaWithJavac NO-SOURCE
+> Task :player-ui:bundleLibRuntimeToJarDebug UP-TO-DATE
+> Task :player-ui:bundleLibCompileToJarDebug UP-TO-DATE
+> Task :player-ui:processDebugJavaRes UP-TO-DATE
+> Task :player-ui:bundleLibRuntimeToDirDebug UP-TO-DATE
+> Task :player:compileDebugAndroidTestJavaWithJavac NO-SOURCE
+> Task :player:processDebugAndroidTestJavaRes UP-TO-DATE
+> Task :player:mergeDebugAndroidTestJavaResource UP-TO-DATE
+> Task :player-ui:compileDebugUnitTestKotlin
+> Task :player:dexBuilderDebugAndroidTest
+> Task :player-ui:compileDebugUnitTestJavaWithJavac NO-SOURCE
+> Task :player-ui:processDebugUnitTestJavaRes UP-TO-DATE
+> Task :sample:compileDebugKotlin
+> Task :sample:mergeLibDexDebug
+> Task :player:mergeLibDexDebugAndroidTest
+> Task :player-ui:testDebugUnitTest
+> Task :sample:compileDebugJavaWithJavac NO-SOURCE
+> Task :sample:processDebugJavaRes UP-TO-DATE
+> Task :sample:mergeDebugJavaResource UP-TO-DATE
+> Task :sample:dexBuilderDebug UP-TO-DATE
+> Task :sample:mergeProjectDexDebug UP-TO-DATE
+> Task :player:bundleReleaseLocalLintAar
+> Task :player:mergeProjectDexDebugAndroidTest
+> Task :player:bundleLibRuntimeToJarRelease
+> Task :player:createFullJarRelease
+> Task :player:generateReleaseUnitTestLintModel
+> Task :player-ui:mergeLibDexDebugAndroidTest
+> Task :player:extractDebugAnnotations
+> Task :player:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :player:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :player:mergeDebugJavaResource UP-TO-DATE
+> Task :player:syncDebugLibJars
+> Task :player:bundleDebugLocalLintAar
+> Task :sample:packageDebug
+> Task :sample:createDebugApkListingFileRedirect UP-TO-DATE
+> Task :sample:assembleDebug
+> Task :player:createFullJarDebug
+> Task :player:generateDebugAndroidTestLintModel
+> Task :player:generateDebugLintModel
+> Task :player:generateDebugUnitTestLintModel
+> Task :player-ui:extractDebugAnnotations
+> Task :player-ui:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :player-ui:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :player-ui:mergeDebugJavaResource UP-TO-DATE
+> Task :player-ui:syncDebugLibJars UP-TO-DATE
+> Task :player-ui:bundleDebugLocalLintAar UP-TO-DATE
+> Task :player-ui:createFullJarDebug UP-TO-DATE
+> Task :player-ui:compileDebugAndroidTestKotlin
+> Task :player-ui:generateDebugAndroidTestLintModel
+> Task :player-ui:compileDebugAndroidTestJavaWithJavac NO-SOURCE
+> Task :player-ui:processDebugAndroidTestJavaRes UP-TO-DATE
+> Task :player-ui:mergeDebugAndroidTestJavaResource UP-TO-DATE
+> Task :player-ui:dexBuilderDebugAndroidTest UP-TO-DATE
+> Task :player-ui:mergeProjectDexDebugAndroidTest UP-TO-DATE
+> Task :player-ui:generateDebugLintReportModel
+> Task :player-ui:generateDebugUnitTestLintModel
+> Task :player:generateReleaseLintModel
+> Task :player:bundleLibCompileToJarRelease
+> Task :player-ui:generateDebugLintModel
+> Task :player-ui:packageDebugAndroidTest
+> Task :player-ui:createDebugAndroidTestApkListingFileRedirect UP-TO-DATE
+> Task :player-ui:assembleDebugAndroidTest
+> Task :sample:bundleDebugClassesToCompileJar UP-TO-DATE
+> Task :sample:generateDebugAndroidTestLintModel
+> Task :sample:generateDebugLintReportModel
+> Task :sample:generateDebugUnitTestLintModel
+> Task :player:bundleReleaseAar
+> Task :player:generateMetadataFileForReleasePublication
+> Task :player:publishReleasePublicationToBundleRepository
+> Task :player:packageDebugAndroidTest
+> Task :player:createDebugAndroidTestApkListingFileRedirect UP-TO-DATE
+> Task :player:assembleDebugAndroidTest
+> Task :player-ui:compileReleaseKotlin
+> Task :player-ui:compileReleaseJavaWithJavac NO-SOURCE
+> Task :player-ui:generateReleaseLintReportModel
+> Task :player-ui:extractReleaseAnnotations
+> Task :player-ui:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :player-ui:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :player-ui:processReleaseJavaRes UP-TO-DATE
+> Task :player-ui:mergeReleaseJavaResource UP-TO-DATE
+> Task :player-ui:syncReleaseLibJars UP-TO-DATE
+> Task :player-ui:bundleReleaseLocalLintAar UP-TO-DATE
+> Task :player-ui:bundleLibRuntimeToJarRelease UP-TO-DATE
+> Task :player-ui:createFullJarRelease UP-TO-DATE
+> Task :player-ui:generateReleaseUnitTestLintModel
+> Task :player-ui:bundleReleaseAar UP-TO-DATE
+> Task :player-ui:generateMetadataFileForReleasePublication
+> Task :player-ui:publishReleasePublicationToBundleRepository
+> Task :player:lintAnalyzeReleaseUnitTest
+> Task :player:lintAnalyzeDebugAndroidTest
+> Task :player:lintAnalyzeDebugUnitTest
+> Task :player-ui:lintAnalyzeDebugUnitTest
+> Task :player-ui:lintAnalyzeDebugAndroidTest
+> Task :sample:lintAnalyzeDebugAndroidTest
+> Task :player-ui:lintAnalyzeReleaseUnitTest
+> Task :sample:lintAnalyzeDebugUnitTest
+> Task :player:lintAnalyzeRelease
+
+> Task :player:lintReportRelease
+Wrote HTML report to file:///Users/cuizhuozhuo/openProject/aiCode/android-video-player/player/build/reports/lint-results-release.html
+
+> Task :player:lintRelease
+> Task :player:lintAnalyzeDebug
+> Task :player-ui:lintAnalyzeRelease
+> Task :player-ui:lintReportRelease
+> Task :player-ui:lintRelease
+> Task :player-ui:lintAnalyzeDebug
+> Task :player-ui:lintReportDebug
+> Task :player-ui:lintDebug
+> Task :sample:lintAnalyzeDebug
+
+> Task :sample:lintReportDebug
+Wrote HTML report to file:///Users/cuizhuozhuo/openProject/aiCode/android-video-player/sample/build/reports/lint-results-debug.html
+
+> Task :sample:lintDebug
+
+[Incubating] Problems report is available at: file:///Users/cuizhuozhuo/openProject/aiCode/android-video-player/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/8.14.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 16s
+256 actionable tasks: 79 executed, 177 up-to-date
